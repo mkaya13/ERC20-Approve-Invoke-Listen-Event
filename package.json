@@ -1,0 +1,32 @@
+{
+  "name": "alchemy-erc20",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkaya13/alchemy-ERC20.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkaya13/alchemy-ERC20/issues"
+  },
+  "homepage": "https://github.com/mkaya13/alchemy-ERC20#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.2",
+    "alchemy-sdk": "^2.6.1",
+    "dotenv": "^16.0.3",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-etherscan": "^3.1.7",
+    "@nomiclabs/hardhat-waffle": "^2.0.5",
+    "hardhat": "^2.13.0",
+    "hardhat-deploy": "^0.11.25"
+  }
+}
